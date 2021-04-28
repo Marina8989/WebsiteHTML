@@ -83,6 +83,7 @@ a, button{
   .hero{
       width: 100%;
       position: absolute;
+      padding-bottom: 3rem;
   }
   .bgHero{
       position: absolute;
@@ -92,6 +93,7 @@ a, button{
       background-size: cover;
       background-position: center;
       height: 100vh;
+      
   }
   .textHero{
       background: white;
@@ -99,7 +101,7 @@ a, button{
       text-align: center;
       margin: 0 auto;
       position: absolute;
-      top: -2rem;
+      top: -3.5rem;
       left: 25%;
       padding: 5rem 7rem;
       
@@ -107,6 +109,8 @@ a, button{
   .textHero h2{
       font-weight: 100;
        margin-top: -6rem;
+       font-size: 2.2rem;
+       line-height: 1.6;
   }
   .textHero p{
       margin: 2.6rem 0;
@@ -126,3 +130,58 @@ a, button{
       border: 1px solid black;
   }
 /* Hero sectio end */
+
+/* hello section start */
+.hello{
+    background: white;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 60.6rem;
+}
+.bgHello{
+    position: absolute;
+    background-image: url('helloPic.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 750px;
+    height: 750px;
+    position: absolute;
+    top: 8rem;
+    left: 16rem;
+    z-index: 1;
+}
+.textHello{
+    width: 40%;
+    z-index: 12;
+    background: white;
+    width: 500px;
+    padding: 7rem 6rem;
+    margin-left: -13rem;
+    margin-top: 3rem;
+}
+.textHello h2{
+    margin-bottom: 1rem;
+}
+.textHello p{
+    line-height: 1.5;
+}
+.textHello .btn-hello{
+    margin-top: 1.2rem;
+    padding: 1rem 2rem;
+    background:rgb(90, 48, 19);
+    color: white;
+    border: none;
+}
+.helloImage{
+    border: 20px solid white;
+    background-image: url('helloPic2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 29rem;
+    top: 22rem;
+}
+/* hello section end */
