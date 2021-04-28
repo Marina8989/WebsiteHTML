@@ -539,12 +539,25 @@ a, button{
 
 /* media queries start*/
 @media only screen and (max-width: 1220px) {
+    .container{
+        width: 90%;
+    }
      .nav{
          width: 90%;
         height: 150px;
      }
      .logo{
          display: none;
+     }
+     .hero{
+         width: 100%;
+     }
+     .textHero h2{
+         font-size: 1.2rem;
+     }
+     .textHero p{
+         font-size: .8rem;
+         line-height: 1.8;
      }
 }
 
@@ -554,6 +567,12 @@ a, button{
     li:nth-child(3), 
     li:nth-child(4){
         display: none;
+    }
+    .hero{
+        display: none;
+    }
+    .bgHello{
+       width: 90%;
     }
 }
 
@@ -567,6 +586,13 @@ a, button{
         border: none;
         font-size: .5rem;
     }
+    .textHero h2{
+         font-size: .8rem;
+     }
+     .textHero p{
+         font-size: .5rem;
+         line-height: 1.8;
+     }
 }
 
 /* media queries end */
