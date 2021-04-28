@@ -249,7 +249,7 @@ a, button{
     position: absolute;
     width: 100%;
     background: white;
-    height: 2000px;
+    height: 2700px;
     top: 165rem;
 }
 .work h1{
@@ -361,6 +361,42 @@ a, button{
     margin: 1rem 1.5rem;
 }
 .sourceText p {
+    margin: 1rem;
+    line-height: 1.7;
+    font-weight: 100;
+}
+
+
+
+.style{
+    position: relative;
+}
+.style img{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 106.6rem;
+    left: 23.4rem;
+}
+.styleText{
+    position: absolute;
+    top: 113rem;
+    left: 1rem;
+    width: 500px;
+    height: 259px;
+    background: rgb(202, 207, 200);
+}
+.styleText .btn-step5{
+    padding: 1rem 1.2rem;
+    margin: 1.5rem;
+    border: 1px solid black;
+    background: rgb(202, 207, 200);
+}
+.styleText h2{
+    font-weight: 100;
+    margin: 1rem 1.5rem;
+}
+.styleText p {
     margin: 1rem;
     line-height: 1.7;
     font-weight: 100;
