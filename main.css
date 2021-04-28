@@ -328,4 +328,41 @@ a, button{
     line-height: 1.7;
     font-weight: 100;
 }
+
+
+
+
+.source{
+    position: relative;
+}
+.source img{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 73rem;
+    left: 23.2rem;
+}
+.sourceText{
+    position: absolute;
+    top: 80rem;
+    left: 40rem;
+    width: 500px;
+    height: 290px;
+    background: rgb(231, 225, 213);
+}
+.sourceText .btn-step3{
+    padding: 1rem 1.2rem;
+    margin: 1.5rem;
+    border: 1px solid black;
+    background: rgb(231, 225, 213);
+}
+.sourceText h2{
+    font-weight: 100;
+    margin: 1rem 1.5rem;
+}
+.sourceText p {
+    margin: 1rem;
+    line-height: 1.7;
+    font-weight: 100;
+}
 /* how we work end */
