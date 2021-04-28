@@ -249,7 +249,7 @@ a, button{
     position: absolute;
     width: 100%;
     background: white;
-    height: 2700px;
+    height: 2500px;
     top: 165rem;
 }
 .work h1{
@@ -402,3 +402,50 @@ a, button{
     font-weight: 100;
 }
 /* how we work end */
+
+/* heroFooter start */
+   .heroFooter{
+       position: relative;
+       top: 215rem;
+       width: 100%;
+       height: 650px;
+       background-image: url('heroFooter.jpg');
+       background-position: center;
+       background-size: cover;
+   }
+   .heroFooterText{
+       position: absolute;
+       top: 7rem;
+       left: 5rem;
+       width: 990px;
+       padding: 2rem;
+       background: white;
+       height: 450px;
+       color: rgb(97, 97, 97);
+       text-align: center;
+   }
+   .heroFooterText h2{
+       text-align: center;
+       padding: 2rem 0;
+       font-size: 2.6rem;
+       margin-bottom: 1.9rem;
+   }
+   .heroFooterText p{
+       text-align: center;
+       line-height: 1.9; 
+   }
+   .line{
+       border-bottom: 1px solid grey;
+       width: 30px;
+       text-align: center;
+       margin: 2rem auto;
+   }
+   .heroBtn{
+       padding: 2rem 3rem;
+       background:rgb(90, 48, 19);
+       color: white;
+       border: none;
+       text-align: center;
+       margin: 0 auto;
+   }
+/* heroFooter end */
