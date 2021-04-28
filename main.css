@@ -138,6 +138,7 @@ a, button{
     height: 1100px;
     position: relative;
     top: 60.6rem;
+    
 }
 .bgHello{
     position: absolute;
@@ -192,7 +193,8 @@ a, button{
     height: 500px;
     background: white;
     position: relative;
-    top: 59rem;
+    top: 60rem;
+    padding: 2rem 0 4rem 0;
 }
 .choose h1{
     text-align: center;
@@ -215,7 +217,7 @@ a, button{
     font-weight: 100;
     text-align: center;
     margin: auto;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2.3rem;
 }
 .chooseOne h5{
     background: rgba(133, 161, 152, .2);
@@ -241,3 +243,19 @@ a, button{
     line-height: 1.6;
 }
 /* choose end */
+
+/* how we work start */
+.work{
+    position: absolute;
+    width: 100%;
+    background: pink;
+    height: 600px;
+    top: 165rem;
+}
+.work h1{
+    font-weight: 100;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 7rem 0 2rem 0;
+}
+/* how we work end */
