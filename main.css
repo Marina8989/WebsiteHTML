@@ -207,13 +207,14 @@ a, button{
     margin-top: 1.7rem;
 }
 .item{
-  width: 20%;
+  width: 21%;
   margin-top: 3rem;
 }
 .item h5{
     font-size: 4rem;
     font-weight: 100;
     text-align: center;
+    margin: auto;
     margin-bottom: 1.3rem;
 }
 .chooseOne h5{
