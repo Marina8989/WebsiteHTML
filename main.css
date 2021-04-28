@@ -59,11 +59,21 @@ ul li a {
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color:rgb(90, 48, 19);
+}
 .nav-btn{
     padding: .7rem 1.2rem;
     margin-left: 4rem;
     border: 1px solid black;
     background: white;
+    transition: all .6s ease;
+}
+.nav-btn:hover{
+    background:rgb(90, 48, 19);
+    color: white;
+    transition: all .6s ease;
+    border: none;
 }
 a, button{
     cursor: pointer;
@@ -91,7 +101,28 @@ a, button{
       position: absolute;
       top: -2rem;
       left: 25%;
-      padding: 5rem 0;
+      padding: 5rem 7rem;
       
+  }
+  .textHero h2{
+      font-weight: 100;
+       margin-top: -6rem;
+  }
+  .textHero p{
+      margin: 2.6rem 0;
+  }
+  .textHero .hero-btn{
+      padding: 1.2rem 1.7rem;
+      margin-top: 1rem;
+      border: none;
+      background:rgb(90, 48, 19);
+      color: white;
+      transition: all .6s ease;
+  }
+  .textHero .hero-btn:hover{
+      background: white;
+      color: black;
+      transition: all .6s ease;
+      border: 1px solid black;
   }
 /* Hero sectio end */
