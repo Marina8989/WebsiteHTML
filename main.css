@@ -248,8 +248,8 @@ a, button{
 .work{
     position: absolute;
     width: 100%;
-    background: pink;
-    height: 600px;
+    background: white;
+    height: 1000px;
     top: 165rem;
 }
 .work h1{
@@ -257,5 +257,38 @@ a, button{
     font-size: 2.2rem;
     text-align: center;
     padding: 7rem 0 2rem 0;
+}
+.consult{
+    position: relative;
+}
+.consult img{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 4rem;
+    left: 23rem;
+}
+.consultText{
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+    width: 500px;
+    height: 250px;
+    background: rgb(231, 225, 213);
+}
+.consultText .btn-step1{
+    padding: 1rem 1.2rem;
+    margin: 1.5rem;
+    border: 1px solid black;
+    background: rgb(231, 225, 213);
+}
+.consultText h2{
+    font-weight: 100;
+    margin: 1rem 1.5rem;
+}
+.consultText p {
+    margin: 1rem;
+    line-height: 1.7;
+    font-weight: 100;
 }
 /* how we work end */
