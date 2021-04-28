@@ -533,3 +533,40 @@ a, button{
     color: rgb(95, 95, 95);
 }
 /* footer end */
+
+
+
+
+/* media queries start*/
+@media only screen and (max-width: 1220px) {
+     .nav{
+         width: 90%;
+        height: 150px;
+     }
+     .logo{
+         display: none;
+     }
+}
+
+@media only screen and (max-width: 900px){
+    nav ul li:nth-child(1), 
+    li:nth-child(2), 
+    li:nth-child(3), 
+    li:nth-child(4){
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    ul li {
+        font-size: 1rem;
+    }
+    .nav-btn{
+        background:rgb(90, 48, 19);
+        color: white;
+        border: none;
+        font-size: .5rem;
+    }
+}
+
+/* media queries end */
